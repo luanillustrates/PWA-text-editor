@@ -10,6 +10,8 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
+      editor: './src/js/editor.js',
+      header: './src/js/header.js',
     },
     //  output for bundles
     output: {
@@ -31,8 +33,8 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: '',
-        short_name: '',
+        name: 'text editor',
+        short_name: 'editor',
         description: 'just another text editor',
         background_color: '#225ca3',
         theme_color: '#225ca3',
