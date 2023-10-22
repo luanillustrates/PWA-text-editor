@@ -32,7 +32,7 @@ npm run start
 
 The application will be found on the local host server.
 
-Follow this Heroku link for a deployed live version.
+Follow this Heroku link for a deployed live version, found <a href="https://pwa-text-editor-install-4943d17f6d17.herokuapp.com/">here</a>.
 
 ## License
 
